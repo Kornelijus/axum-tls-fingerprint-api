@@ -1,0 +1,10 @@
+[package]
+name = "axum-tls-fingerprint-api"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+axum = "0.7.7"
+axum-extra = "0.9.4"
+axum-server = "0.7.1"
+tokio = { version = "1.41.0", features = ["full"] }
